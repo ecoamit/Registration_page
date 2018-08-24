@@ -1,0 +1,16 @@
+body {
+background-color: #c1c1c1;
+
+}
+#imaging{
+
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+#login-modal .modal-dialog {
+  width: 800px;
+}
+#login-modal input[type=text], input[type=password]{
+  margin-top: 15px;
+}

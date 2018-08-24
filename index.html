@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">User Registration Page</h1>
+        <p class="text-center"><a href="#" data-target="#login-modal" data-toggle="modal"role="button" class="btn btn-primary btn-lg">Login Here</a></p>
+        <p class="text-center"><a href="#" data-target="#signup-modal" data-toggle="modal"role="button" class="btn btn-primary btn-lg">Signup Here</a></p>
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade" id="login-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <img id="imaging" class="img-thumbnail" src="logo1.jpeg " alt="image here">
+      </div>
+      <div id="div-forms">
+        <form>
+          <div class="modal-body">
+          <div text-center>Enter your Email and password here:</div>
+          <input class="form-control"placeholder="Email" type="text" required>
+          <input class="form-control"placeholder="password" type="password" required>
+<div class="checkbox">
+  <label>
+    <input type="checkbox">Remember me
+  </label>
+</div>
+</div>
+<div class="modal-footer">
+  <div class="row">
+    <div class="col-sm-6">
+      <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+    </div>
+    <div class="col-sm-6">
+      <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+    </div>
+  </div>
+</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="signup-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <img id="imaging" class="img-thumbnail" src="logo1.jpeg " alt="image here">
+      </div>
+      <div id="div-forms">
+        <form>
+          <div class="modal-body">
+          <div text-center>Enter your details here:</div>
+          <input class="form-control"placeholder="Enter your Name" type="text" required>
+          <br>
+          <input class="form-control"placeholder="Enter your Email" type="text" required>
+          <input class="form-control"placeholder="Enter your password" type="password" required>
+          <input class="form-control"placeholder="Confirm your password" type="password" required>
+<div class="checkbox">
+  <label>
+    <input type="checkbox">Remember me
+  </label>
+</div>
+</div>
+<div class="modal-footer">
+  <div class="row">
+
+    <div class="col-sm-12">
+      <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+    </div>
+  </div>
+</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
